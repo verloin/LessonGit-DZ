@@ -1,0 +1,55 @@
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+
+
+// ================================================
+                  //  header
+// ================================================
+
+
+
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 739px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding-top: 40px;
+  li {
+    display: inline-block;
+    text-align: center;
+    & + li {
+      margin-left: 30px;
+    }
+    a {
+      color: #fff;
+      display: inline-block;
+    }
+  }
+  &-logo {
+    @include O700;
+    font-size: 28px;
+  }
+}
+
+.header__box {
+  color: #fff;
+  text-align: center;
+  &-title {
+    margin-top: 215px;
+    font-size: 32px;
+    padding-bottom: 32px;
+    text-transform: uppercase;
+  }
+  &-text {
+
+  }
+}

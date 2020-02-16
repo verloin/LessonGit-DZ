@@ -1,0 +1,16 @@
+
+
+@mixin S300 {
+    font-family: "SourceSansPro-Light";
+    font-weight: 300;
+}
+
+@mixin O400 {
+    font-family: "OpenSans";
+    font-weight: 400;
+}
+
+@mixin O700 {
+    font-family: "OpenSans-Bold";
+    font-weight: 700;
+}
