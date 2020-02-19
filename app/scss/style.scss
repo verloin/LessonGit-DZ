@@ -75,7 +75,6 @@
     &-title {
       padding-bottom: 45px;
       text-align: left;
-      // text-transform: uppercase;
     }
     &-text {
       max-width: 490px;
@@ -109,7 +108,7 @@
 
 
 // ================================================
-                  //  details
+                  //  Details
 // ================================================
 
 
@@ -118,7 +117,6 @@
 }
 
 .details__inner {
-  // background-color: #f3f3f3;
   padding-bottom: 100px;
   .details__about {
     text-align: center;
@@ -174,11 +172,11 @@
                   //  Featured-Project
 // ================================================
 
-.featured {
+.features {
   align-items: center;
   margin: 0 auto;
   max-width: 1371px;
-  margin-bottom: 75px;
+  // margin-bottom: 75px;
 }       
 
 .featured__inner {
@@ -197,30 +195,19 @@
   }
 }
 
-.features__foto-box {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap-reverse;
-}
-
 .features__foto {
   max-width: 1371px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   img {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0,0,0,0.4);
-
+    display: inline-block;
+    width: 100%;
+    height: auto;
   }
-}
-.ft__foto-box {
-  display: flex;
-}
-.ft-foto {
-  height: 318px;
+  .ft-foto {
+    height: 318px;
+  }
 }
 
 .features__bottom {
@@ -230,7 +217,6 @@
   max-width: 1371px;
   background-color: #1fab8e;
   color: #fff;
-  
   &-text {
     padding-left: 160px;
     font-size: 20px;
@@ -254,6 +240,175 @@
 // ================================================
 
 
+.services {
+  background-color: #f3f3f3;
+}
+
 .services__inner {
   margin: 0px 70px 135px 70px;
+  padding-top: 75px;
 }
+
+.services__about {
+  text-align: center;
+  max-width: 475px;
+  margin: 0px auto 55px;
+  &-title {
+    padding: 30px;
+  }
+  &-text {
+    line-height: 22px;
+    font-size: 14px;
+  }
+}
+
+.services__box {
+  display: flex;
+  justify-content: space-between;
+  .services__design {
+    max-width: 500px;
+    padding-left: 100px;
+    position: relative;
+    &-foto01 {
+      position: absolute;
+      top: 67px;
+      left: 0;
+    }
+    &-foto02 {
+      position: absolute;
+      top: 133px;
+      left: 0;
+    }
+    &-foto03 {
+      position: absolute;
+      top: 200px;
+      left: 0;
+    }
+    &-title {
+      margin-bottom: 25px;
+    }
+    &-text .design__text01 {
+      line-height: 24px;
+      letter-spacing: .08px;
+      padding-bottom: 25px;
+    }
+    &-text .design__text02 {
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: .6px;
+    }
+  }
+}
+
+.services__design-foto01,
+.services__design-foto02,
+.services__design-foto03 {
+  border: 3px solid transparent;
+  &:hover {
+    border: 2px solid $green;
+    border-radius: 50%;
+  }
+}
+
+.services__graf {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  .graf__box {
+    text-align: center;
+  }
+  .graf-box-item02 {
+    margin-left: 40px;
+  }
+  .graf-box-item03 {
+    margin-left: 40px;
+  }
+  .box__procents {
+    padding: 32px;
+    margin-bottom: 24px;
+  }
+  .box__procents {
+    text-align: center;
+    border: 4px solid $green;
+    border-radius: 50%;
+  }
+}
+
+
+// ================================================
+                  //  Impressed
+// ================================================
+
+
+.impressed__inner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 395px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  .impressed__box {
+    max-width: 615px;
+    color: #fff;
+    margin-left: 100px;
+    line-height: 28px;
+    letter-spacing: .8px;
+    &-title {
+      margin: 72px 0px 48px;
+      text-align: left;
+    }
+    &-text {
+      margin-bottom: 20px;
+      color: #9c9d9d;
+    }
+    &-text_signature {
+      font-size: 14px;
+      color: #9c9d9d;
+      text-transform: uppercase;
+      span {
+        color: $green;
+      }
+    }
+  }
+  .impressed__img {
+    position: relative;
+    
+    img {
+      position: absolute;
+      bottom: 111px;
+      right: 100px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ================================================
+                  //  Portfolio
+// ================================================
+
+
+
+.portfolio__inner {
+  max-width: 1110px;
+  margin: 0px auto;
+  .portfolio__gallery {
+    .grid-item { 
+      margin-bottom: 8px;
+    }
+  }
+}
+
+
