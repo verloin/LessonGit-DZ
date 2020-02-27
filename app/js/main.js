@@ -29,7 +29,7 @@ jQuery(function($) {
 			dotsClass: 'slick-latest'
 		});
 
-
+		$('.header__burger').on('click', function(){});
 
 
     $('.portfolio__gallery').masonry({

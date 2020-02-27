@@ -1,91 +1,79 @@
 @font-face {
-    font-family: "SourceSansPro-Light";
-  
-    src: url("../fonts/SourceSansPro-Light.woff") format("woff"),
-      url("../fonts/SourceSansPro-Light.woff2") format("woff2"); 
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "SourceSansPro-Light";
 
-  @font-face {
-    font-family: "OpenSans";
-  
-    src: url("../fonts/OpenSans-Regular.woff") format("woff"), /* Modern Browsers */
-      url("../fonts/OpenSans-Regular.woff2") format("woff2"); /* Modern Browsers */
-    font-weight: normal;
-    font-style: normal;
-  }
+  src: url("../fonts/SourceSansPro-Light.woff") format("woff"),
+    url("../fonts/SourceSansPro-Light.woff2") format("woff2"); 
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: "OpenSans-Bold";
-  
-    src: url("../fonts/OpenSans-Bold.woff") format("woff"), /* Modern Browsers */
-      url("../fonts/OpenSans-Bold.woff2") format("woff2"); /* Modern Browsers */
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "OpenSans";
 
-  @font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?6j6zeg');
-    src:  url('../fonts/icomoon.eot?6j6zeg#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?6j6zeg') format('truetype'),
-      url('../fonts/icomoon.woff?6j6zeg') format('woff'),
-      url('../fonts/icomoon.svg?6j6zeg#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-search:before {
-    content: "\f002";
-  }
-  .icon-envelope-o:before {
-    content: "\f003";
-  }
-  .icon-map-marker:before {
-    content: "\f041";
-  }
-  .icon-chevron-right:before {
-    content: "\f054";
-  }
-  .icon-phone:before {
-    content: "\f095";
-  }
-  .icon-bell-o:before {
-    content: "\f0a2";
-  }
-  .icon-angle-left:before {
-    content: "\f104";
-  }
-  .icon-angle-right:before {
-    content: "\f105";
-  }
-  .icon-angle-up:before {
-    content: "\f106";
-  }
-  .icon-angle-down:before {
-    content: "\f107";
-  }
-  .icon-location-arrow:before {
-    content: "\f124";
-  }
-  .icon-sort-amount-desc:before {
-    content: "\f161";
-  }
-  
+  src: url("../fonts/OpenSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/OpenSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+
+  src: url("../fonts/OpenSans-Bold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/OpenSans-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?pvy52');
+  src:  url('fonts/icomoon.eot?pvy52#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pvy52') format('truetype'),
+    url('fonts/icomoon.woff?pvy52') format('woff'),
+    url('fonts/icomoon.svg?pvy52#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-align-justify:before {
+  content: "\f039";
+}
+.icon-bars:before {
+  content: "\f0c9";
+}
+.icon-navicon:before {
+  content: "\f0c9";
+}
+.icon-reorder:before {
+  content: "\f0c9";
+}
+.icon-angle-left:before {
+  content: "\f104";
+}
+.icon-angle-right:before {
+  content: "\f105";
+}
+.icon-angle-up:before {
+  content: "\f106";
+}
+.icon-angle-down:before {
+  content: "\f107";
+}
+

@@ -22,6 +22,7 @@
   align-items: center;
   color: #fff;
   padding-top: 40px;
+  height: 30px;
   li {
     display: inline-block;
     text-align: center;
@@ -47,7 +48,7 @@
   color: #fff;
   text-align: center;
   &-title {
-    margin-top: 200px;
+    margin-top: 195px;
     font-size: 35px;
     padding-bottom: 32px;
   }
@@ -58,6 +59,10 @@
     line-height: 28px;
     letter-spacing: 0.8px;
   }
+}
+
+.header__burger {
+  display: none;
 }
 
 
@@ -198,7 +203,7 @@
 }
 
 .features__foto {
-  max-width: 1371px;
+  // max-width: 1371px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -216,7 +221,7 @@
   display: flex;
   justify-content: space-between;
   min-height: 113px;
-  max-width: 1371px;
+  // max-width: 1371px;
   background-color: #1fab8e;
   color: #fff;
   &-text {
@@ -415,7 +420,7 @@
 }
 
 .portfolio__inner {
-  max-width: 1110px;
+  max-width: 1140px;
   margin: 0px auto;
   .portfolio__gallery {
     min-height: 950px;
@@ -622,7 +627,7 @@
 }
 
 .testimonials__box {
-  max-width: 1170px;
+  max-width: 1200px;
   background-color: #fff;
   margin: 0 auto;
   padding: 60px 100px 60px;
@@ -892,4 +897,65 @@
 
 .price__box-item + .price__box-item {
   margin-left: 65px;
+}
+
+
+// ============================================================================
+
+
+
+
+@media (max-width: 1220px) {
+  .header__nav-logo {
+    margin-left: 15px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .header__burger {
+    display: block;
+    width: 30px;
+    margin-right: 15px;
+    margin-top: 6px;
+    &-row {
+      width: 100%;
+      height: 3px;
+      margin-bottom: 4px;
+      background-color: #fff;
+    }
+  }
+  .header__nav-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__box-title {
+    font-size: 30px;
+    padding-bottom: 25px;
+    word-spacing: -3px;
+  }
+  .header__box-text {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: none;
+  }
+  .header__burger {
+    margin-right: 10px;
+  }
+  .header__nav-logo {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__box-title {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .header__box-text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
